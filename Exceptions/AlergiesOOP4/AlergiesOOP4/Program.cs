@@ -2,10 +2,13 @@
 
 namespace AlergiesOOP4
 {
-    public static void Main()
+    public class Program
     {
-        Allergies obj = new Allergies();
-        obj.Name = "Gina";
-        obj.GetAllergens(25);
+        public static void Main()
+        {
+            Allergies obj = new Allergies();
+            obj.Name = "Gina";
+            obj.GetAllergens(25);
+        }
     }
 }
