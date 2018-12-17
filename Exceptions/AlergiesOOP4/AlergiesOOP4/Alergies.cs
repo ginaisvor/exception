@@ -13,8 +13,7 @@ using System;
 namespace AlergiesOOP4
 {
     public enum Allergens { Eggs = 1, Peanuts = 2, Shelfish = 4, Strawberries = 8, Tomatoes = 16, Chocolate = 32, Pollen = 64, Cats = 128 };
-    public class Program
-    {
+
         public class Allergies
         {
             private string name;
@@ -23,8 +22,6 @@ namespace AlergiesOOP4
                 get { return this.name; }
                 set { this.name = value; }
             }
-
-
             public void GetAllergens(int score)
             {
                 int indice = score;
@@ -55,6 +52,4 @@ namespace AlergiesOOP4
                 }
             }
         }
-
-    }
 }
